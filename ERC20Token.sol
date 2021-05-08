@@ -1,10 +1,10 @@
-pragma solidity ^0.8.0;
+pragma solidity ^0.5.0;
 
 // ----------------------------------------------------------------------------
 // ERC Token Standard #20 Interface
 //
 // ----------------------------------------------------------------------------
-contract ERC20Token {
+contract MyToken {
     function totalSupply() public view returns (uint);
     function balanceOf(address tokenOwner) public view returns (uint balance);
     function allowance(address tokenOwner, address spender) public view returns (uint remaining);
